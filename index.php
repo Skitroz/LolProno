@@ -5,17 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LoL Prono</title>
+    <title>LoL Prono - Accueil</title>
 
-    <link rel="shortcut icon" href="LoLProno logo.png">
+    <link rel="shortcut icon" href="favicon.ico">
 
 </head>
 
 <body>
-
-    <h1 id="pageTitle">Coucou</h1>
-
-    <a href="google.com">google</a>
 
 </body>
 </html>
