@@ -3,11 +3,30 @@
     padding: 0;
 }
 
-#LoLProno_logo {
-    height: 60px;
+header {
+    background-color: bisque;
+}
+
+#headerLogo {
+    margin: 0px 20px 0px 10px;
+}
+
+#headerBoutonList {
+    display: flex;
+    align-items: center;
 }
 
 .headerBouton {
     list-style-type: none;
+    margin-right: 20px;
 }
+
+#LoLProno_logo {
+    height: 60px;
+}
+
+#login {
+    margin-left: auto;
+}
+
 
