@@ -10,11 +10,11 @@
     <img id="LoLProno_logo" src="LoLProno logo.png" alt="LoLProno logo">
     <nav>
         <ul>        
-            <li class="headerBouton"><a href="index.php"> Accueil </a></li>
-            <li class="headerBouton"><a href="matchdujour.php"> Match du jour </a></li>       
-            <li class="headerBouton"><a href="jeu.php"> Jeu </a></li>
-            <li class="headerBouton"><a href="classement.php"> Classement </a></li>      
-            <li class="headerBouton"><a href="connexion.php"> Connexion </a></li>
+            <li class="headerBouton" id="home"><a href="index.php"> Accueil </a></li>
+            <li class="headerBouton" id="dailyGames"><a href="matchdujour.php"> Match du jour </a></li>       
+            <li class="headerBouton" id="game"><a href="jeu.php"> Jeu </a></li>
+            <li class="headerBouton" id="leaderboard"><a href="classement.php"> Classement </a></li>      
+            <li class="headerBouton" id="login"><a href="connexion.php"> Connexion </a></li>
         </ul>
     </nav>
 </header>
