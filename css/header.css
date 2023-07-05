@@ -7,7 +7,11 @@ header {
     background-color: bisque;
 }
 
-#headerLogo {
+a {
+    all: unset;
+}
+
+#headerBoutonNav {
     margin: 0px 20px 0px 10px;
 }
 
@@ -18,7 +22,19 @@ header {
 
 .headerBouton {
     list-style-type: none;
-    margin-right: 20px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    width: 80px;
+    height: 10px;
+    padding: 10px 25px 15px 25px;
+    background-color: bisque;
+}
+
+.headerBouton:hover {
+    cursor: pointer;
+    background-color: rgb(185, 151, 109);
+    color: #ffffff;
 }
 
 #LoLProno_logo {
@@ -28,5 +44,3 @@ header {
 #login {
     margin-left: auto;
 }
-
-
