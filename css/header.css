@@ -1,44 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: bisque;
+    background-color: rgb(168, 110, 110);
 }
 
-a {
-    all: unset;
-}
-
-#headerBoutonNav {
-    margin: 0px 20px 0px 10px;
-}
-
-#headerBoutonList {
+#headerLogo {   
     display: flex;
-    align-items: center;
+    justify-content: center;
+
+    height: 10%;
+    width: 100%;
+
+    background-image: url(images/IoniaRegion.png);
+    background-size: cover;
 }
 
-.headerBouton {
+#headerLogo img {
+    width: 5%;
+}
+
+header nav {
+    margin: 0px 20% 0px 20%;
+}
+
+#headerBoutonList{
+    display: flex;
+    /*width: 100%;*/
+}
+
+#headerBoutonList li {
+
+    display: inline;
     list-style-type: none;
     text-align: center;
     font-family: 'Heebo', sans-serif;
     font-weight: 600;
-    width: 80px;
-    height: 10px;
-    padding: 10px 25px 15px 25px;
-    background-color: bisque;
+    font-size: 0.8em;
+    
+    padding: 0px 10px 0px 10px;
+}
+
+.headerBouton {
+    text-decoration: none;
+    color: black;
+
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+    padding: 10px 3px 0px 3px;
+    
 }
 
 .headerBouton:hover {
     cursor: pointer;
-    background-color: rgb(185, 151, 109);
     color: #ffffff;
-}
-
-#LoLProno_logo {
-    height: 60px;
+    border-bottom: 2px solid #ffffff;
 }
 
 #login {

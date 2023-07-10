@@ -1,3 +1,12 @@
+<?php
+$homeCase = 'Accueil';
+$gameOfTheDayCase = 'Parties';
+$gameCase = 'En jeu';
+$leaderboardsCase = 'Classements';
+$loginCase = 'Connexion';
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,14 +16,23 @@
 </head>
 <body>
 <header>
-    <nav id="headerBoutonNav">
-        <ul id="headerBoutonList">   
-            <img id="LoLProno_logo" src="images/LoLProno_logo.png" alt="LoLProno logo">             
-            <li class="headerBouton" id="home"><a href="index.php">Accueil</a></li>
-            <li class="headerBouton" id="dailyGames"><a href="matchdujour.php">Parties</a></li>       
-            <li class="headerBouton" id="game"><a href="jeu.php">Jeu</a></li>
-            <li class="headerBouton" id="leaderboards"><a href="classement.php">Classements</a></li>      
-            <li class="headerBouton" id="login"><a href="connexion.php">Connexion</a></li>
+    <div id="headerLogo"> <img src="images/LoLProno_logo.png" alt="LoLProno logo"> </div>     
+    <nav>      
+        <ul id="headerBoutonList">            
+            <li>
+                <a class="headerBouton" href="index.php"><?php echo $homeCase?></a>
+            </li>
+            <li>
+                <a class="headerBouton" href="matchdujour.php"><?php echo $gameOfTheDayCase?></a>
+            </li>       
+            <li>
+                <a class="headerBouton" href="jeu.php"><?php echo $gameCase?></a>
+            </li>
+            <li>
+                <a class="headerBouton" href="classement.php"><?php echo $leaderboardsCase?></a>
+            </li>      
+            <li id="login"><a class="headerBouton" href="connexion.php"><?php echo $loginCase?></a>
+        </li>
         </ul>
     </nav>
 </header>

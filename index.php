@@ -1,4 +1,6 @@
-<?php include ("header.php");?> 
+<?php 
+include ("header.php");
+?> 
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,3 +17,7 @@
 
 </body>
 </html>
+
+<?php 
+include ("footer.php");
+?> 
