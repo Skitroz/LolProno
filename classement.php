@@ -1,6 +1,5 @@
 <?php 
 include ("header.php");
-include ("footer.php");
 ?> 
 
 <!DOCTYPE html>
@@ -18,3 +17,6 @@ include ("footer.php");
 
 </body>
 </html>
+<?php 
+include ("footer.php");
+?> 

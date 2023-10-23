@@ -31,7 +31,7 @@ $loginCase = 'Connexion';
             <li>
                 <a class="headerBouton" href="classement.php"><?php echo $leaderboardsCase?></a>
             </li>      
-            <li id="login"><a class="headerBouton" href="connexion.php"><?php echo $loginCase?></a>
+            <li id="login"><a class="headerBouton" href="login.php"><?php echo $loginCase?></a>
         </li>
         </ul>
     </nav>
